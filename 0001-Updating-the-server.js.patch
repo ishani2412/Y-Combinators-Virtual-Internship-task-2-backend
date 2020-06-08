@@ -1,0 +1,215 @@
+From c8600b8a2f5c9dedee32d43473dabeac728ee81c Mon Sep 17 00:00:00 2001
+From: ishani2412 <ishani.1613039@kiet.edu>
+Date: Mon, 8 Jun 2020 17:29:01 +0530
+Subject: [PATCH] Updating the server.js
+
+---
+ package-lock.json | 54 ++++++++++++++++++++---------------------
+ package.json      |  2 +-
+ server.js         | 62 ++++++++++++++++++++++++++++++++++++++++++++++-
+ 3 files changed, 89 insertions(+), 29 deletions(-)
+
+diff --git a/package-lock.json b/package-lock.json
+index 9719cfc..7d9f411 100644
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -1806,12 +1806,12 @@
+       }
+     },
+     "better-sqlite3": {
+-      "version": "5.4.0",
+-      "resolved": "https://registry.npmjs.org/better-sqlite3/-/better-sqlite3-5.4.0.tgz",
+-      "integrity": "sha512-Uj1ZYOcq1GtFyFgJgqMVDoDLTy1B1pM9+bULnlX8szRX4cPjE/7JbKxCzQGhYlZlLkHQvtXXhCZ3skqsQ2byMA==",
++      "version": "5.4.3",
++      "resolved": "https://registry.npmjs.org/better-sqlite3/-/better-sqlite3-5.4.3.tgz",
++      "integrity": "sha512-fPp+8f363qQIhuhLyjI4bu657J/FfMtgiiHKfaTsj3RWDkHlWC1yT7c6kHZDnBxzQVoAINuzg553qKmZ4F1rEw==",
+       "requires": {
+         "integer": "^2.1.0",
+-        "tar": "^4.4.6"
++        "tar": "^4.4.10"
+       }
+     },
+     "binary-extensions": {
+@@ -1941,9 +1941,9 @@
+       }
+     },
+     "chownr": {
+-      "version": "1.1.1",
+-      "resolved": "https://registry.npmjs.org/chownr/-/chownr-1.1.1.tgz",
+-      "integrity": "sha512-j38EvO5+LHX84jlo6h4UzmOwi0UgW61WRyPtJz4qaadK5eY3BTS5TY/S1Stc3Uk2lIM6TPevAlULiEJwie860g=="
++      "version": "1.1.4",
++      "resolved": "https://registry.npmjs.org/chownr/-/chownr-1.1.4.tgz",
++      "integrity": "sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg=="
+     },
+     "class-utils": {
+       "version": "0.3.6",
+@@ -2444,11 +2444,11 @@
+       "integrity": "sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac="
+     },
+     "fs-minipass": {
+-      "version": "1.2.5",
+-      "resolved": "https://registry.npmjs.org/fs-minipass/-/fs-minipass-1.2.5.tgz",
+-      "integrity": "sha512-JhBl0skXjUPCFH7x6x61gQxrKyXsxB5gcgePLZCwfyCGGsTISMoIeObbrvVeP6Xmyaudw4TT43qV2Gz+iyd2oQ==",
++      "version": "1.2.7",
++      "resolved": "https://registry.npmjs.org/fs-minipass/-/fs-minipass-1.2.7.tgz",
++      "integrity": "sha512-GWSSJGFy4e9GUeCcbIkED+bgAoFyj7XF1mV8rma3QW4NIqX9Kyx79N/PF61H5udOV3aY1IaMLs6pGbH71nlCTA==",
+       "requires": {
+-        "minipass": "^2.2.1"
++        "minipass": "^2.6.0"
+       }
+     },
+     "fs-readdir-recursive": {
+@@ -3583,20 +3583,20 @@
+       "integrity": "sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0="
+     },
+     "minipass": {
+-      "version": "2.3.5",
+-      "resolved": "https://registry.npmjs.org/minipass/-/minipass-2.3.5.tgz",
+-      "integrity": "sha512-Gi1W4k059gyRbyVUZQ4mEqLm0YIUiGYfvxhF6SIlk3ui1WVxMTGfGdQ2SInh3PDrRTVvPKgULkpJtT4RH10+VA==",
++      "version": "2.9.0",
++      "resolved": "https://registry.npmjs.org/minipass/-/minipass-2.9.0.tgz",
++      "integrity": "sha512-wxfUjg9WebH+CUDX/CdbRlh5SmfZiy/hpkxaRI16Y9W56Pa75sWgd/rvFilSgrauD9NyFymP/+JFV3KwzIsJeg==",
+       "requires": {
+         "safe-buffer": "^5.1.2",
+         "yallist": "^3.0.0"
+       }
+     },
+     "minizlib": {
+-      "version": "1.2.1",
+-      "resolved": "https://registry.npmjs.org/minizlib/-/minizlib-1.2.1.tgz",
+-      "integrity": "sha512-7+4oTUOWKg7AuL3vloEWekXY2/D20cevzsrNT2kGWm+39J9hGTCBv8VI5Pm5lXZ/o3/mdR4f8rflAPhnQb8mPA==",
++      "version": "1.3.3",
++      "resolved": "https://registry.npmjs.org/minizlib/-/minizlib-1.3.3.tgz",
++      "integrity": "sha512-6ZYMOEnmVsdCeTJVE0W9ZD+pVnE8h9Hma/iOwwRDsdQoePpoX56/8B6z3P9VNwppJuBKNRuFDRNRqRWexT9G9Q==",
+       "requires": {
+-        "minipass": "^2.2.1"
++        "minipass": "^2.9.0"
+       }
+     },
+     "mixin-deep": {
+@@ -4839,17 +4839,17 @@
+       "dev": true
+     },
+     "tar": {
+-      "version": "4.4.8",
+-      "resolved": "https://registry.npmjs.org/tar/-/tar-4.4.8.tgz",
+-      "integrity": "sha512-LzHF64s5chPQQS0IYBn9IN5h3i98c12bo4NCO7e0sGM2llXQ3p2FGC5sdENN4cTW48O915Sh+x+EXx7XW96xYQ==",
++      "version": "4.4.13",
++      "resolved": "https://registry.npmjs.org/tar/-/tar-4.4.13.tgz",
++      "integrity": "sha512-w2VwSrBoHa5BsSyH+KxEqeQBAllHhccyMFVHtGtdMpF4W7IRWfZjFiQceJPChOeTsSDVUpER2T8FA93pr0L+QA==",
+       "requires": {
+         "chownr": "^1.1.1",
+         "fs-minipass": "^1.2.5",
+-        "minipass": "^2.3.4",
+-        "minizlib": "^1.1.1",
++        "minipass": "^2.8.6",
++        "minizlib": "^1.2.1",
+         "mkdirp": "^0.5.0",
+         "safe-buffer": "^5.1.2",
+-        "yallist": "^3.0.2"
++        "yallist": "^3.0.3"
+       }
+     },
+     "to-fast-properties": {
+@@ -5132,9 +5132,9 @@
+       "dev": true
+     },
+     "yallist": {
+-      "version": "3.0.3",
+-      "resolved": "https://registry.npmjs.org/yallist/-/yallist-3.0.3.tgz",
+-      "integrity": "sha512-S+Zk8DEWE6oKpV+vI3qWkaK+jSbIK86pCwe2IF/xwIpQ8jEuxpw9NyaGjmp9+BoJv5FV2piqCDcoCtStppiq2A=="
++      "version": "3.1.1",
++      "resolved": "https://registry.npmjs.org/yallist/-/yallist-3.1.1.tgz",
++      "integrity": "sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g=="
+     },
+     "yargs": {
+       "version": "12.0.5",
+diff --git a/package.json b/package.json
+index bb95fa3..af4eabd 100644
+--- a/package.json
++++ b/package.json
+@@ -22,7 +22,7 @@
+   },
+   "homepage": "https://github.com/insidesherpa/shiptivity-2#readme",
+   "dependencies": {
+-    "better-sqlite3": "^5.4.0",
++    "better-sqlite3": "^5.4.3",
+     "express": "^4.16.4"
+   },
+   "devDependencies": {
+diff --git a/server.js b/server.js
+index 7ba16d7..535642e 100644
+--- a/server.js
++++ b/server.js
+@@ -126,7 +126,67 @@ app.put('/api/v1/clients/:id', (req, res) => {
+   const client = clients.find(client => client.id === id);
+ 
+   /* ---------- Update code below ----------*/
+-
++if (status) {
++   // status can only be either 'backlog' | 'in-progress' | 'complete'
++    if (status !== 'backlog' && status !== 'in-progress' && status !== 'complete') {
++      return res.status(400).send({
++        'message': 'Invalid status provided.',
++        'long_message': 'Status can only be one of the following: [backlog | in-progress | complete].',
++      });
++    }
++  }
++  const newStatus = status;
++  const oldStatus = client.status;
++  const oldPriority = client.priority;
++
++  // We have 3 possible use cases:
++  // 1. oldStatus == newStatus AND oldPriority == priority, do nothing
++  // 2. oldStatus == newStatus AND oldPriority != priority, reorder clients with the same status
++  // 3. oldStatus != newStatus, reorder clients in oldStatus and newStatus. If priority is provided, rearranged accordingly
++
++  if (oldStatus === newStatus && priority && oldPriority !== priority) {
++    const clientsWithDifferentStatus = clients.filter(client => client.status !== newStatus);
++    client.priority = priority - 0.5;
++    const clientsWithSameStatus = clients.filter(client => client.status === newStatus)
++      .sort((a, b) => a.priority - b.priority)
++      .map((client, index) => ({
++        ...client,
++        priority: index + 1,
++      }));
++    clients = [
++      ...clientsWithDifferentStatus,
++      ...clientsWithSameStatus,
++    ];
++  } else if (oldStatus !== newStatus) {
++    client.status = newStatus;
++    client.priority = priority ? priority - 0.5 : Number.MAX_SAFE_INTEGER;
++    const clientsWithDifferentStatus = clients.filter(client => client.status !== oldStatus && client.status !== newStatus);
++    const clientsWithOldStatus = clients.filter(client => client.status === oldStatus)
++      .sort((a, b) => a.priority - b.priority)
++      .map((client, index) => ({
++        ...client,
++        priority: index + 1,
++      }));
++    const clientsWithNewStatus = clients.filter(client => client.status === newStatus)
++      .sort((a, b) => a.priority - b.priority)
++      .map((client, index) => ({
++        ...client,
++        priority: index + 1,
++      }));
++    client.priority = clientsWithNewStatus.length;
++    clients = [
++      ...clientsWithDifferentStatus,
++      ...clientsWithOldStatus,
++      ...clientsWithNewStatus,
++    ];
++  }
++ 
++  // Naive approach of updating the entire rows on the table
++  const updateStmt = db.prepare('update clients set status = ?, priority = ? where id = ?');
++  clients.forEach(client => {
++    updateStmt.run(client.status, client.priority, client.id);
++  });
++ 
+ 
+ 
+   return res.status(200).send(clients);
+-- 
+2.25.1.windows.1
+
